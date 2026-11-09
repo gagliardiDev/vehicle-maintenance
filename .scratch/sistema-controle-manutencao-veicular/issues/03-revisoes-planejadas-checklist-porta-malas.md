@@ -5,13 +5,13 @@ O fluxo preparatório de revisões que apoia a cotação e compra antecipada de 
 
 **Blocked by:** 02: Plano Preventivo, Gatilho Híbrido e Projeção de Vencimento
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] Tabelas `revisoes_planejadas` e `revisao_itens` persistidas no SQLite.
-- [ ] Rota da API REST para CRUD de revisões planejadas e toggle do status `comprado_porta_malas`.
-- [ ] População inicial da Revisão de 101.000 km do Suzuki SX4:
+- [x] Tabelas `revisoes_planejadas` e `revisao_itens` persistidas no SQLite.
+- [x] Rota da API REST para CRUD de revisões planejadas e toggle do status `comprado_porta_malas`.
+- [x] População inicial da Revisão de 101.000 km do Suzuki SX4:
   - Peças a comprar por fora: Filtro de Ar (Wega JFA 0885/Tecfil ARL 7714), Filtro de Cabine (Tecfil ACP 709/Wega AKX 1965), Óleo do Diferencial/Transferência (2L API GL-5 80W-90).
   - Serviços de oficina: Troca de óleo 5W-30 (4,5L) + filtro de óleo M14, instalação dos filtros do porta-malas, troca do óleo GL-5, limpezas MAF/TBI/PCV, rodízio/alinhamento e inspeção de elevador.
-- [ ] Interface Vue 3 mobile-first exibindo o checklist com visual estilo prancheta de oficina, contadores de itens no porta-malas vs. a comprar e alertas visuais.
-- [ ] Botão para adicionar itens rápidos à lista de compras ou à lista de serviços da oficina.
-- [ ] Teste automatizado validando a persistência da revisão planejada e o toggle do estado do checklist.
+- [x] Interface Vue 3 mobile-first exibindo o checklist com visual estilo prancheta de oficina, contadores de itens no porta-malas vs. a comprar e alertas visuais.
+- [x] Botão para adicionar itens rápidos à lista de compras ou à lista de serviços da oficina.
+- [x] Teste automatizado validando a persistência da revisão planejada e o toggle do estado do checklist.

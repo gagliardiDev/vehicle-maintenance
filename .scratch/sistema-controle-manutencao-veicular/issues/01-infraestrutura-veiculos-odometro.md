@@ -5,13 +5,13 @@ Uma aplicação funcional com backend FastAPI e interface Vue 3 servida localmen
 
 **Blocked by:** None (can start immediately)
 
-**Status:** ready-for-agent
+**Status:** done
 
-- [ ] O banco SQLite é inicializado em `data/maintenance.db` com tabela de veículos e histórico de odômetro em modo WAL.
-- [ ] Os veículos Suzuki SX4 (101.000 km) e Honda Biz 125 2011 são cadastrados automaticamente via seed idempotente.
-- [ ] A API REST expõe rotas `/api/veiculos` e `/api/veiculos/{id}/odometro`.
-- [ ] A interface Vue 3 (Tailwind CSS) exibe a listagem dos veículos em cards limpos e responsivos para celular e desktop.
-- [ ] O modal de "Atualização Rápida de Odômetro" valida entradas não numéricas e impede valores decrescentes no odômetro de referência.
-- [ ] O histórico de alterações de odômetro armazena a data/hora e o valor informado.
-- [ ] Os scripts `iniciar_servidor.bat` e `parar.bat` inicializam e finalizam o processo na porta 8015 de forma limpa.
-- [ ] Teste automatizado via TestClient valida o CRUD de veículos e o recálculo do odômetro.
+- [x] O banco SQLite é inicializado em `data/maintenance.db` com tabela de veículos e histórico de odômetro em modo WAL.
+- [x] Os veículos Suzuki SX4 (101.000 km) e Honda Biz 125 2011 são cadastrados automaticamente via seed idempotente.
+- [x] A API REST expõe rotas `/api/veiculos` e `/api/veiculos/{id}/odometro`.
+- [x] A interface Vue 3 (Tailwind CSS) exibe a listagem dos veículos em cards limpos e responsivos para celular e desktop.
+- [x] O modal de "Atualização Rápida de Odômetro" valida entradas não numéricas e impede valores decrescentes no odômetro de referência.
+- [x] O histórico de alterações de odômetro armazena a data/hora e o valor informado.
+- [x] Os scripts `iniciar_servidor.bat` e `parar.bat` inicializam e finalizam o processo na porta 8015 de forma limpa.
+- [x] Teste automatizado via TestClient valida o CRUD de veículos e o recálculo do odômetro.
