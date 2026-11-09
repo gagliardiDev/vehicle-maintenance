@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.env
+
+# Database & Uploads
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/uploads/*
+!data/uploads/.gitkeep
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+frontend/.vscode/
